@@ -1,0 +1,50 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  height: 25px;
+
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 20px;
+
+  object-fit: contain;
+
+  /* 80px */
+  width: 90px;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+
+  /* object-fit: contain; */
+  /* width: 30px; */
+
+  /* If BTN */
+  background-color: red;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+}
+
+.nav__avatar:hover {
+  background-color: #0e0e43;
+}
+
+.nav__black {
+  background-color: #111;
+}
